@@ -11,12 +11,12 @@ import pandas as pd
 # to rename a file using os library
 #os.rename('D:\\drive-download-20200411T200405Z-001\\tscautomation\\GG_ALL_Active_Windows_Server_Computers_and_Servers.csv','D:\\drive-download-20200411T200405Z-001\\tscautomation\\Physical Servers.csv')
 # to read csv file.encoding is used to consider all types of symbols which will not be conisdered if we would use utf-8 default one.
-dataset=pd.read_csv("D:\\tcsautomation\\GG_ALL_Active_Windows_Server_Computers_and_Servers.csv",encoding='latin1',index_col=False)
-dataset2=pd.read_csv("D:\\tcsautomation\\GG - ESX Servers Active & VM running (For DXC License windows Report).csv",encoding='latin1',index_col=False)
-dataset3=pd.read_csv("D:\\tcsautomation\\GG - Cluster & ESX Servers Active (For DXC License windows Report).csv",encoding='latin1',index_col=False)
-dataset4=pd.read_csv("D:\\tcsautomation\\DRS Status.csv",encoding='latin1')
-dataset5=pd.read_csv("D:\\tcsautomation\\Missing host names_Hosting01.csv",encoding='latin1')
-dataset6=pd.read_csv("D:\\tcsautomation\\Summary.csv",encoding='latin1')
+dataset=pd.read_csv("D:\\excelautomation\\document1.csv",encoding='latin1')
+dataset2=pd.read_csv("D:\\excelautomation\\document2.csv",encoding='latin1')
+dataset3=pd.read_csv("D:\\excelautomation\\document3.csv",encoding='latin1')
+dataset4=pd.read_csv("D:\\excelautomation\\document4.csv",encoding='latin1')
+dataset5=pd.read_csv("D:\\excelautomation\\document5.csv",encoding='latin1')
+dataset6=pd.read_csv("D:\\excelautomation\\document6.csv",encoding='latin1')
 #x=dataset.iloc[:,[0]].values
 #df.filter(["Name", "College", "Salary"])
 #print(dataset.head(5))
